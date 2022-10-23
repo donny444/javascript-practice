@@ -18,6 +18,21 @@ function myObj() {
     var foodVal = myFav.food
     var musicVal = myFav['music']
 }
+function favEat(x) {
+    switch(x){
+        case "Indian": console.log("My favorite eat is " + myFav.eat.Indian)
+        break
+        case "Italian": console.log("My favorite eat is " + myFav.eat.Italian)
+        break
+        case "Thai": console.log("My favorite eat is " + myFav.eat.Thai)
+        break
+    }
+    return "favEat function ended"
+}
+function addFriend(x) {
+    myFav.friends.push(x)
+    return myFav.friends
+}
 
 /*function checkObj(checkProp) {
     if (myFav.hasOwnPorperty(checkProp)) {
@@ -28,4 +43,5 @@ function myObj() {
 }*/
 //error
 
-console.log(checkObj("music"))
+console.log(favEat("Thai"))
+console.log(addFriend("Got"))

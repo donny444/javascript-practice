@@ -1,5 +1,5 @@
 function caseInSwitch(val) {
-    var answer=""
+    let answer=""
     switch(val) {
         case 1:
             answer = "alpha"

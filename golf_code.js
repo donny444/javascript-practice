@@ -1,4 +1,4 @@
-var names = ["Hole=in=One!","Eagle","Birdie","Par","Bogey","Double Bogey","Go Home!"]
+const names = ["Hole=in=One!","Eagle","Birdie","Par","Bogey","Double Bogey","Go Home!"]
 function golfScore(par,strokes) {
     if (strokes == 10) {
         return names[0]
