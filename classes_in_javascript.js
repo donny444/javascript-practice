@@ -83,3 +83,5 @@ const myExample = new Example();
 myExample.somePublicMethod(); // 'You called me?'
 
 //myExample.#somePrivateMethod(); // SyntaxError
+
+//Source: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Classes_in_JavaScript

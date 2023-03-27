@@ -23,3 +23,5 @@ person.farewell = function () {
 function logProperty(propertyName) {
   console.log(person[propertyName]);
 }
+
+//Source: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics

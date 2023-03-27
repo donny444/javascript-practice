@@ -45,3 +45,5 @@ const personPrototype = {
 const donny = Object.create(personPrototype);
 donny.greet(); // hello!
 */
+
+//Source: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes
