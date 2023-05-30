@@ -8,7 +8,7 @@ const myObject = {
 
 myObject.greet(); // Greetings from Bangpusi
 
-Object.getPrototypeOf(myObject)
+console.log(Object.getPrototypeOf(myObject))
 */
 /*
 const myDate = new Date();
