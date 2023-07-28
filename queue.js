@@ -38,8 +38,4 @@ class Queue {
     }
 }
 
-let myQueue = new Queue(1);
-myQueue.enqueue(2);
-myQueue.enqueue(3);
-myQueue.dequeue();
-console.log(myQueue);
+export default Queue;
