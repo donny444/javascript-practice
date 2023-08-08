@@ -1,5 +1,5 @@
 function duplicateZero(arr) {
-    if(arr == [] || Array.isArray(arr) == false) {
+    if(arr != [] || Array.isArray(arr) == false) {
         return "Only Array that have element.";
     }
     for(let i = 0; i < arr.length; i++) {

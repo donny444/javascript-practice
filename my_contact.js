@@ -5,6 +5,8 @@ var myContact = {
     "youtubechannel": "Tanadorn GT",
     "facebookpage": "ดอนนวย",
 }
+
+//Python doesn't have switch-case but JavaScript have
 switch("Facebook Page") {
     case "Facebook": console.log(myContact.facebook); break;
     case "Instagram": console.log(myContact.instagram); break;

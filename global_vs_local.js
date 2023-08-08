@@ -3,5 +3,5 @@
     var outerWear= "sweater";
     return outerWear;
  }
- console.log(myOutfit());
- console.log(outerWear);
+ console.log(myOutfit()); //local
+ console.log(outerWear); //global
