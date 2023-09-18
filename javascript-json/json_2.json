@@ -1,0 +1,9 @@
+{
+    "myself": [
+        { "name": "Donny" },
+        { "surname": "Galaxy" },
+        { "isFemale": false },
+        { "isMale": true },
+        { "age": 18}
+    ]
+}
